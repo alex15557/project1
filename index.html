@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная Страница</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+
+
+
+
+ <form method="post">
+        <p>Введите число1</p>
+        <input type="text" name="number1">
+        <p>Введите операцию</p>
+        <input type="text" name="znak">
+        <p>Введите число2</p>
+        <input type="text" name="number2">
+        <br>
+        <br>
+        <button type="submit">Вычислить</button>
+
+    </form>
+
+    <h>Число1 = {{num1}}</h>
+    <br>
+    <h>Знак операции: {{zn}} </h>
+    <br>
+    <h>Число2 = {{num2}}</h>
+    <br>
+    <h2>Результат: {{res}}</h2>
+
+
+</body>
+</html>
